@@ -57,6 +57,9 @@
     float: left;
     margin-right: 1em;
   }
+  .scores__table th:nth-child(2), .scores__table td:nth-child(2) {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 550px) {

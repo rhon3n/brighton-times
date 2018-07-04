@@ -221,7 +221,6 @@ main {
 .scores__table {
   width: 100%;
   border-collapse: collapse;
-  max-width: 549px;
 }
 
 .scores__table th,
@@ -247,12 +246,7 @@ main {
   font-weight: bold;
 }
 
-.scores__table td:nth-child(3) {
-  text-align: right;
-}
-
-.scores__table td:nth-child(2),
-.scores__table td:nth-child(5) {
+.scores__table td {
   text-align: center;
 }
 
